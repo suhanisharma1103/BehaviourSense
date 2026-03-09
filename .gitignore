@@ -6,7 +6,15 @@ __pycache__/
 __pycache__/
 *.py[cod]
 *$py.class
+venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
 
+models/*.bin
+models/*.pt
+models/*.h5
 # Virtual environments
 venv/
 env/
