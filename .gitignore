@@ -21,7 +21,8 @@ env/
 ENV/
 .venv/
 *.pyc
-
+__pycache__/
+*.pyc
 # Environment variables
 .env
 
