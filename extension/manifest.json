@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "BehaviorSense Risk Detector",
+  "version": "1.0",
+  "description": "Detect phishing, stress and toxicity in text",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
