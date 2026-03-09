@@ -2,6 +2,48 @@
 __pycache__/
 *.py[codz]
 *$py.class
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+pytest_cache/
+
+# API secrets
+*.key
+*.pem
+
+# FastAPI cache
+.cache/
 
 # C extensions
 *.so
