@@ -11,7 +11,7 @@ __pycache__/
 *.pyc
 .env
 .ipynb_checkpoints/
-
+.venv/
 models/*.bin
 models/*.pt
 models/*.h5
