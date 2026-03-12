@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>BehaviorSense</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>BehaviorSense</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <h2>BehaviorSense</h2>
 
-<textarea id="textInput" placeholder="Paste text here"></textarea>
+<button id="analyzeBtn">Analyze Page</button>
 
-<button id="analyzeBtn">Analyze</button>
+<div id="loading" class="hidden">
+Analyzing text...
+</div>
 
 <div id="result"></div>
 
