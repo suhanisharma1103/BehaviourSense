@@ -1,10 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "BehaviorSense Risk Detector",
+  "name": "BehaviorSense Analyzer",
   "version": "1.0",
-  "description": "Detect phishing, stress and toxicity in text",
-  "permissions": ["activeTab", "scripting"],
+  "description": "Detect phishing, toxicity and stress in online text.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/analyze"
+  ],
   "action": {
     "default_popup": "popup.html"
-  }
+    
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
 }
